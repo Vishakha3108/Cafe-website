@@ -1,0 +1,53 @@
+@media (max-width: 1200px){
+    /*custom css*/
+    h1{
+        font-size: 2.1857rem;
+
+    }
+    h2{
+        font-size: 1.1857rem;
+        
+    }
+    h3{
+        font-size: 1.25rem;
+        
+    }
+    h4{
+        font-size: 1.125rem;
+        line-height: 2rem;
+    }
+    p,a{
+        font-size:  .875rem;
+        line-height: 1.2rem;
+    }
+    .main-btn{
+        padding: 5rem 0.9375rem;
+    }
+    .wrapper{
+        padding-top: 4.25rem;
+        padding-bottom: 3.25rem;
+    }
+
+    /*Nav bar section*/
+    .navigation-wrap .navbar-brand img{
+        width: 6.25rem;
+    }
+    .navigation-wrap .navbar-expand-lg .navbar-nav .nav-link{
+        font-size: 0.875rem;
+    }
+}
+
+@media (max-width: 992px){
+    /*custom css*/
+    p,a{
+        font-size: 75rem;
+    }
+
+    /*navbar*/
+    .header-top{
+        display: none;
+    }
+    .navbar .navbar-toggler{
+        color: var(--text-white);
+    }
+}
