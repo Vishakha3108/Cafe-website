@@ -1,0 +1,314 @@
+@media (max-width: 1200px){
+    /*custom css*/
+    h1{
+        font-size: 2.1857rem;
+
+    }
+    h2{
+        font-size: 1.1857rem;
+        
+    }
+    h3{
+        font-size: 1.25rem;
+        
+    }
+    h4{
+        font-size: 1.125rem;
+        line-height: 2rem;
+    }
+    p,a{
+        font-size:  .875rem;
+        line-height: 1.2rem;
+    }
+    .main-btn{
+        padding: .5rem 0.9375rem;
+    }
+    .wrapper{
+        padding-top: 4.25rem;
+        padding-bottom: 3.25rem;
+    }
+
+    /*Nav bar section*/
+    .navigation-wrap .navbar-brand img{
+        width: 6.25rem;
+    }
+    .navigation-wrap .navbar-expand-lg .navbar-nav .nav-link{
+        font-size: 0.875rem;
+    }
+    
+
+     /* chat gpt */
+
+    .about-section .row.align-item-center {
+        flex-direction: column;
+        text-align: center;
+      }
+    
+      .about-section img {
+        max-width: 80%;
+        margin: 0 auto 20px;
+      }
+    
+      .about-section .ps-lg-5 {
+        padding-left: 0 !important;
+      }
+    
+      .service-cards .col-lg-3 {
+        flex: 0 0 50%;
+        max-width: 50%;
+      }
+    
+      .service-cards .mb-5 {
+        margin-bottom: 20px !important;
+      }
+
+
+
+
+
+
+
+    /*Services section*/
+
+    /* .service-section .service-cards{
+        margin-top: 4.4286rem;
+    }
+    .service-section .card{
+        padding: 3.4375rem 0 0;
+        margin-bottom: 1.25rem;
+
+    }
+    .service-section .card img{
+        width: 6.25rem;
+        height: 6.25rem;
+    } */
+}
+
+@media (max-width: 992px){
+    /*custom css*/
+    p,a{
+        font-size: 75rem;
+    }
+
+    /*navbar*/
+    .header-top{
+        display: none;
+    }
+    .navbar .navbar-toggler{
+        color: var(--text-white);
+    }
+    .navbar .main-btn{
+        margin: 0.625rem 0;
+    }
+    .navigation-wrap{
+        text-align: center;
+        background-color: var(--black-color);
+    }
+    .navigation-wrap .nav-link{
+        line-height: 1.857rem;
+    }
+
+    /*Top Banner*/
+    .top-banner{
+        padding: 6.375rem 0 4.375rem;
+
+    }
+
+    /* about us */
+    /* .about-section{
+        text-align: center;
+    }
+    .about-section span::after{
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+ */
+
+    /* chat gt  */
+    .about-section img {
+        max-width: 100%;
+      }
+    
+      .about-section .row.align-item-center {
+        flex-direction: column-reverse;
+      }
+    
+      .service-cards .col-md-6 {
+        flex: 0 0 100%;
+        max-width: 100%;
+      }
+    
+      .service-cards .mb-5 {
+        margin-bottom: 70px !important;
+      }
+    
+      .service-section .text-center span {
+        font-size: 1.2rem;
+      }
+    
+      .service-section .text-center h2 {
+        font-size: 1.5rem;
+      }
+    
+      .card {
+        padding: 20px 10px;
+      }
+    
+      .card img {
+        max-width: 60%;
+        margin: 0 auto;
+      }
+    
+      .card h3 {
+        font-size: 1.25rem;
+      }
+    
+      .card p {
+        font-size: 0.9rem;
+      }
+
+
+      /*features section*/
+      .feature-section .card .price{
+        font-size: 1.125rem;
+      }
+}
+
+@media (max-width: 767px) {
+    /*Custom CSS*/
+    h1{
+        font-size: 1.5625rem;
+    }
+    h{
+        font-size: 1.25rem;
+    }
+    h3{
+        font-size: 1.125rem;
+    }
+    
+    h4{
+        font-size:  1rem;
+    }
+    span{
+        font-size: .875;
+    }
+    .main-btn{
+        font-size: 0.75rem;
+        line-height: 1rem;
+        padding:  0.5rem 0.625rem;
+    }
+    .wrapper{
+        padding-top: 3.25rem;
+        padding-bottom: 2.25rem;
+    }
+
+    /* services section  */
+    .service-section .card{
+        margin-bottom:  2.5rem;
+
+    }
+
+    /*features section*/
+    .feature-section .card .price{
+        font-size: .875rem;
+      }
+
+
+    .feature-section .card{
+        margin-bottom: 2.5rem;
+    }
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+/* Media Query for max-width: 1200px */
+@media (max-width: 1200px) {
+    #delivery .delivery-section .container {
+      padding: 0 20px;
+    }
+  
+    #delivery .delivery-section h2 {
+      font-size: 2rem;
+    }
+  
+    #delivery .delivery-section p {
+      font-size: 1rem;
+    }
+  }
+  
+  /* Media Query for max-width: 992px */
+  @media (max-width: 992px) {
+    #delivery .delivery-section .container {
+      padding: 0 15px;
+    }
+  
+    #delivery .delivery-section h2 {
+      font-size: 1.8rem;
+    }
+  
+    #delivery .delivery-section p {
+      font-size: 0.95rem;
+    }
+  
+    #delivery .delivery-section button {
+      font-size: 0.9rem;
+      padding: 10px 20px;
+    }
+  }
+  
+  /* Media Query for max-width: 767px */
+  @media (max-width: 767px) {
+    #delivery .delivery-section .container {
+      text-align: center;
+    }
+  
+    #delivery .delivery-section .row {
+      justify-content: center;
+    }
+  
+    #delivery .delivery-section h2 {
+      font-size: 1.5rem;
+    }
+  
+    #delivery .delivery-section p {
+      font-size: 0.9rem;
+      margin: 0 auto 20px;
+    }
+  
+    #delivery .delivery-section button {
+      font-size: 0.85rem;
+      padding: 8px 18px;
+    }
+  }
+  
+  /* Media Query for small devices (max-width: 575px) */
+  @media (max-width: 575px) {
+    #delivery .delivery-section span {
+      font-size: 1rem;
+    }
+  
+    #delivery .delivery-section h2 {
+      font-size: 1.3rem;
+    }
+  
+    #delivery .delivery-section p {
+      font-size: 0.85rem;
+      line-height: 1.4;
+    }
+  
+    #delivery .delivery-section button {
+      font-size: 0.8rem;
+      padding: 6px 15px;
+    }
+  }
+  
