@@ -37,7 +37,7 @@
     }
     
 
-     /* chat gpt */
+     /*  */
 
     .about-section .row.align-item-center {
         flex-direction: column;
@@ -61,8 +61,28 @@
       .service-cards .mb-5 {
         margin-bottom: 20px !important;
       }
+     
+      .service-section .card{
+        padding-bottom: 4rem;
+      }
 
-}
+
+      /**/
+      #delivery .delivery-section .container {
+        padding: 0 20px;
+      }
+    
+      #delivery .delivery-section h2 {
+        font-size: 2rem;
+      }
+    
+      #delivery .delivery-section p {
+        font-size: 1rem;
+      }
+    }
+    
+
+
 
 @media (max-width: 992px){
     /*custom css*/
@@ -94,17 +114,22 @@
 
     }
 
+    /**/
+    .service-section .card{
+      padding-bottom: 2rem;
+    }
+
 
 
       /*features section*/
-      /* .feature-section .card .price{
+       .feature-section .card .price{
         font-size: 1.125rem;
       }
 
-
+         /*  */
       .Download-heading{
         margin-left: 80px;
-      } */
+      } 
 
       /*footer section*/
 
@@ -112,6 +137,32 @@
         padding-left: 1.5rem;
         letter-spacing: 0px;
        }
+
+
+       /**/
+       #delivery .delivery-section .container {
+        padding: 0 15px;
+      }
+    
+      #delivery .delivery-section h2 {
+        font-size: 1.8rem;
+      }
+    
+      #delivery .delivery-section p {
+        font-size: 0.95rem;
+      }
+    
+      #delivery .delivery-section button {
+        font-size: 0.9rem;
+        padding: 10px 20px;
+      }
+
+
+
+      /**/
+      .copy-r{
+        padding-left: 8rem;
+      }
 }
 
 @media (max-width: 767px) {
@@ -149,7 +200,7 @@
     }
 
     /*features section*/
-    /* .feature-section .card .price{
+     .feature-section .card .price{
         font-size: .875rem;
       }
 
@@ -159,84 +210,16 @@
     }
     
 
+    /* */
+
     .Download-heading{
       margin-left: 30px;
     }
     .Download-heading h3{
-      width: 200px; */
-    }
+      width: 200px; 
+    } 
 
-
-    /*fotter section*/
-     .footer .footer-link,
-     .footer a i{
-      padding: 0.3rem 0.7rem;
-
-     }
-     .footer a{
-      padding: 0rem;
-     }
-     .copy-r{
-      padding-left: 1.5rem;
-      letter-spacing: 0px;
-     }
-}
-
-
-
-
-
-
-
-/* 
-/* chat gpt  */
-
- 
-
-
-
-
-
-
-
-
-/* Media Query for max-width: 1200px */
-/* @media (max-width: 1200px) {
-    #delivery .delivery-section .container {
-      padding: 0 20px;
-    }
-  
-    #delivery .delivery-section h2 {
-      font-size: 2rem;
-    }
-  
-    #delivery .delivery-section p {
-      font-size: 1rem;
-    }
-  }
-  
-  /* Media Query for max-width: 992px */
-  @media (max-width: 992px) {
-    #delivery .delivery-section .container {
-      padding: 0 15px;
-    }
-  
-    #delivery .delivery-section h2 {
-      font-size: 1.8rem;
-    }
-  
-    #delivery .delivery-section p {
-      font-size: 0.95rem;
-    }
-  
-    #delivery .delivery-section button {
-      font-size: 0.9rem;
-      padding: 10px 20px;
-    }
-  }
-  
-  /* Media Query for max-width: 767px */
-  @media (max-width: 767px) {
+    /*delivery section */
     #delivery .delivery-section .container {
       text-align: center;
     }
@@ -258,139 +241,29 @@
       font-size: 0.85rem;
       padding: 8px 18px;
     }
-  }
-  
-  /* Media Query for small devices (max-width: 575px) */
-  @media (max-width: 575px) {
-    #delivery .delivery-section span {
-      font-size: 1rem;
-    }
-  
-    #delivery .delivery-section h2 {
-      font-size: 1.3rem;
-    }
-  
-    #delivery .delivery-section p {
-      font-size: 0.85rem;
-      line-height: 1.4;
-    }
-  
-    #delivery .delivery-section button {
-      font-size: 0.8rem;
-      padding: 6px 15px;
-    }
-  }
-  
-
 
 
   
 
+    /*fotter section*/
+     .footer .footer-link,
+     .footer a i{
+      padding: 0.3rem 0.7rem;
 
+     }
+     .footer a{
+      padding: 0rem;
+     }
+     .copy-r{
+      padding-left: 6rem;
+      letter-spacing: 0px;
+     }
 
-  /* General Styles for All Screen Sizes */
-/* .card {
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-  border-radius: 8px;
-  overflow: hidden;
 }
 
-.feature-img img {
-  width: 100%;
-  height: auto;
-}
 
-.main-btn {
-  background-color: #ff6f61;
-  color: #fff;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 4px;
-  cursor: pointer;
-}
 
-.main-btn.style-1:hover {
-  background-color: #e65c50;
-} */
 
-/* Media Query for max-width: 1200px */
-/* @media (max-width: 1200px) {
-  .col-lg-4 {
-    flex: 0 0 50%;
-    max-width: 50%;
-  }
 
-  .p-4 {
-    padding: 20px;
-  }
-} */
 
-/* Media Query for max-width: 992px */
-/* @media (max-width: 992px) {
-  .col-lg-4, .col-md-6 {
-    flex: 0 0 50%;
-    max-width: 50%;
-  }
 
-  .wrapper {
-    padding: 0 15px;
-  }
-
-  .main-btn {
-    padding: 8px 16px;
-    font-size: 14px;
-  }
-} */
-
-/* Media Query for max-width: 767px */
-/* @media (max-width: 767px) {
-  .col-lg-4, .col-md-6 {
-    flex: 0 0 100%;
-    max-width: 100%;
-  }
-
-  .text-center h2 {
-    font-size: 20px;
-  }
-
-  .text-center span {
-    font-size: 14px;
-  }
-
-  .price b {
-    font-size: 16px;
-  }
-
-  .p-4 {
-    padding: 15px;
-  }
-
-  .main-btn {
-    padding: 6px 12px;
-    font-size: 12px;
-  }
-} */
-
-/* Small Devices (max-width: 576px) */
-/* @media (max-width: 576px) {
-  .container {
-    padding: 0 10px;
-  }
-
-  .card {
-    margin-bottom: 20px;
-  }
-
-  .text-center span {
-    font-size: 12px;
-  }
-
-  .text-center h2 {
-    font-size: 18px;
-  }
-
-  .main-btn {
-    padding: 5px 10px;
-    font-size: 10px;
-  }
-} */

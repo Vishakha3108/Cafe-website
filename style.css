@@ -341,7 +341,7 @@ span::after{
 .delivery-section {
     width: 100%;
     height: 100%;
-    /* background: url("../imgs/bg/InShot_20250114_175949055.jpg") no-repeat center; */
+    background: url("../imgs/bg/bg-4.jpg") no-repeat center;
     background-size: contain;
 
 }
@@ -396,8 +396,10 @@ span::after{
 
 }
 .newsletter .form-group input{
-    width: 50%;
-    height: 2.2857rem;
+    width: 100%;
+    font-size: 20px;
+    padding: 0px 10px;
+    height: 3.2857rem;
     border-radius: 0.3571rem;
     background: m 0.7143rem;
     border: none;
@@ -409,13 +411,15 @@ span::after{
 }
 .newsletter button{
     font-weight: 700;
-    margin-top: 15px;
+    margin-top: 20px;
     background-color: var(--secondery-color);
-    padding: 5px 50px;
+    padding: 10px 70px;
     border-radius: 5px;
     border: none;
+    font-size: 18px;
+    letter-spacing: 0.5px;
     color: white;
-    letter-spacing: 1px;
+    text-align: center;
 }
 
 .newsletter button:hover {
