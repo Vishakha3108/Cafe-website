@@ -63,7 +63,7 @@
       }
      
       .service-section .card{
-        padding-bottom: 4rem;
+        padding-bottom: 5rem;
       }
 
 
@@ -116,7 +116,7 @@
 
     /**/
     .service-section .card{
-      padding-bottom: 2rem;
+      padding-bottom: 3rem;
     }
 
 
@@ -197,6 +197,10 @@
     .service-section .card{
         margin-bottom:  2.5rem;
 
+    }
+
+    .service-section .card{
+      padding-bottom: 3rem;
     }
 
     /*features section*/

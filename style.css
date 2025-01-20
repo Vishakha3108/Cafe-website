@@ -238,7 +238,8 @@ span::after{
 }
 
 /*About us*/
-.about-section p{
+.about-section b{
+    color: #8f8d94;
       text-align: justify;
 }
 
@@ -444,9 +445,20 @@ span::after{
     color: var(--text-white);
     padding: 0 1rem;
 }
+.footer .footer-link:hover{
+    color: var(--text-primary);
+}
+.footer .footer-social i:hover{
+    color: var(--text-primary);
+    padding: 5px;
+    border: 2px solid var(--primary-color);
+    border-radius: 50%;
+    transition: all 0.1s ease;
+}
 .copy-r{
     font-size: 15px;
     padding-left: 19rem;
     letter-spacing: 1px;
     width: 100%;
 }
+
